@@ -1,0 +1,69 @@
+{
+  "originHash" : "cf68ff82b669e3fcf9a4bba5e96aa6d7c01ab3afcc7317f45d6251b53882a462",
+  "pins" : [
+    {
+      "identity" : "cast",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/Catterwaul/Cast.git",
+      "state" : {
+        "branch" : "main",
+        "revision" : "ff40c9cb95e6070a9c5af8adf095e52efa1d13a9"
+      }
+    },
+    {
+      "identity" : "hemiprocnemystaceaalgorithms",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/Catterwaul/HemiprocneMystaceaAlgorithms.git",
+      "state" : {
+        "branch" : "main",
+        "revision" : "01f4fb19cef2ca90e8ab626c8df2f129d53cb702"
+      }
+    },
+    {
+      "identity" : "swift-algorithms",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/apple/swift-algorithms",
+      "state" : {
+        "branch" : "main",
+        "revision" : "34eec0dd27ba4b539fe01e61fac07c9227c65a63"
+      }
+    },
+    {
+      "identity" : "swift-collections",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/apple/swift-collections",
+      "state" : {
+        "branch" : "main",
+        "revision" : "11433b688df0e0b8c3deee56c30294ed63d929eb"
+      }
+    },
+    {
+      "identity" : "swift-numerics",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/apple/swift-numerics.git",
+      "state" : {
+        "revision" : "0a5bc04095a675662cf24757cc0640aa2204253b",
+        "version" : "1.0.2"
+      }
+    },
+    {
+      "identity" : "thrappture",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/Catterwaul/Thrappture",
+      "state" : {
+        "branch" : "main",
+        "revision" : "e6aae00285098bf65c01ac154a677e6679973c11"
+      }
+    },
+    {
+      "identity" : "tuplay",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/Catterwaul/Tuplay.git",
+      "state" : {
+        "branch" : "main",
+        "revision" : "05443f2becd263ea57238edf4bdd598a1112313f"
+      }
+    }
+  ],
+  "version" : 3
+}
