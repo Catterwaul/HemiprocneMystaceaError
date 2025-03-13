@@ -9,13 +9,11 @@ _ = Package(
   products: [.library(name: .shortenedName(), targets: [.shortenedName()])],
   dependencies: dependencies.map(\.package),
   targets: [
-    .target(
-      name: .shortenedName(),
-      dependencies: dependencies.dropFirst().map(\.product)
-    ),
+    .target(name: .shortenedName()),
     .testTarget(
       name: .shortenedName(suffix: "Tests"),
       dependencies: [.init(stringLiteral: .shortenedName())]
+        + dependencies.dropFirst().map(\.product)
     )
   ]
 )
@@ -31,7 +29,8 @@ extension String {
 // MARK: - Dependency
 
 nonisolated var dependencies: [Dependency]  {
-  [ .swift(repositoryName: "docc-plugin")
+  [ .swift(repositoryName: "docc-plugin"),
+    .catterwaul(name: "Thrappture")
   ]
 }
 
