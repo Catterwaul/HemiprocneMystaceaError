@@ -10,6 +10,7 @@ You've got the source code, so aside from reading this documentation, see the **
 
 - ``SomeError``
 - ``Swift/Error/throw()``
+- ``Swift/Error/throw(_:)``
 
 ### Error Coalescing
 
