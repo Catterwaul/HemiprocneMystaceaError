@@ -1,6 +1,6 @@
 # ``HMError``
 
-This code primarily extends the functionality of [Swift Errors](https://developer.apple.com/documentation/swift/error).
+Extended functionality for [Errors](https://developer.apple.com/documentation/swift/error).
 
 ### Usage Examples
 
